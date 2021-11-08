@@ -1,0 +1,178 @@
+.navbar-brand{
+    height: 50px;
+    width: 15%;
+    margin-left:15% ;
+}
+.navbar-nav{
+    margin-left: 40%;
+}
+.IMAGE{
+    position: relative;
+    overflow: hidden;
+    height: 600px;
+    background-image: url(photo-1517524206127-48bbd363f3d7.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.card{
+    background-color: #eee;
+
+}
+.img-1{
+    height: 90px;
+    width: 80%;
+}
+.img-2{
+height: 90px;
+width: 80%;
+}
+.img-3{
+    height: 90px;
+    width: 80%;
+}
+.radius{
+    border-radius: 50%;
+    background: #b0bec5;
+    border: 10px solid #00e5ff;
+    height: 140px;
+    width: 50%;
+    margin-left: 20%;
+    margin-top: 5%;
+}
+.image-1{
+    padding: 10px;
+    margin-left: 15%;
+    /* margin-top: 10%; */
+}
+.scooty{
+    height: 500px;
+    width: 100%;
+    margin: 4%;
+    /* padding: 19px; */
+}
+/* .text-block {
+position: absolute;
+bottom: 10px;
+right: 20px;
+background-color: transparent;
+color: white;
+padding-left: 20px;
+padding-right: 20px;
+margin-bottom:8%;
+} */
+.text{
+   padding: 17px;
+}
+
+.clients{
+    background-color: white;
+}
+.CARD:hover{
+    -webkit-box-shadow:-1px 9px 40px -12px rgba(0,0,0,0.75);
+    -moz-box-shadow:-1px 9px 40px -12px rgba(0,0,0,0.75);
+    box-shadow:-1px 9px 40px -12px rgba(0,0,0,0.75);
+}
+.button{
+    background-color: white;
+    height: 70px;
+    width: 100%;
+    padding: 2%;
+}
+.form{
+    max-width: 600px;
+    position: relative;
+    box-shadow: 0 10px 30px 0px rgba(0,0,0,0,1);
+    padding: 8px;
+}
+.contact-form .form-field{
+    position: relative;
+    margin: 32px 0;
+}
+.contact-form .input-text{
+    display: block;
+    width: 100%;
+    height: 25px;
+    border-width: 0 0 2px 0;
+    border-color: black;
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: 300;
+}
+.contact-form .input-text:focus + .label,
+.contact-form .input-text.not-empty + .label{
+    transform: translateY(-24px);
+}
+.contact-form .input-text:focus{
+    outline: none;
+}
+.contact-form .label{
+    position: absolute;
+    left: 20px;
+    bottom: 11px;
+    font-size: 14px;
+    line-height: 26px;
+    font-weight: 400;
+    color: blue;
+    cursor: text;
+    text-transform: capitalize;
+    transition: transform 0.2s ease-in-out;
+}
+.submit{
+    line-height: 15px;
+    margin-top: 4px;
+}
+footer{
+    background-color: black;
+    margin-top: 10%;
+    width:100%;
+}
+.logo-img{
+    height: 63px;
+    width: 57%;
+}
+.icon{
+    height: 5px;
+    width: 30%;
+}
+.hr{
+    height: 5px;
+    width: 50%;
+    color: rgb(0,0,0);
+    background-color: white;
+}
+ul{
+    list-style-type: none;
+    text-decoration: none;
+    padding-left: 0%;
+}
+.line{
+    line-height: 30%;
+}
+@media(max-width:736px){
+    .logo{
+        width: 50%;
+        margin-right:10% ;
+    }
+    footer{
+        width:97%;
+    }
+    .container{
+        margin-left: 10%;
+        background-color: #eee;
+        width:80%;
+    }
+    .scuti-image{
+        width: 50%;
+        margin-left: 20%;
+        
+    }
+    .scooty{
+        display: none;
+    }
+    .IMAGE{
+        width:97%;
+    }
+
+}
